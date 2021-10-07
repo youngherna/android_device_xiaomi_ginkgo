@@ -11,8 +11,7 @@ dalvik.vm.image-dex2oat-threads=8
 af.fast_track_multiplier=1
 audio.deep_buffer.media=true
 audio.offload.min.duration.secs=30
-persist.vendor.audio.ras.enabled=false
-ro.af.client_heap_size_kbyte=7168
+persist.bluetooth.a2dp_offload.disabled=true
 ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=6
 ro.vendor.audio.afe.record=true
@@ -86,11 +85,10 @@ vendor.audio.volume.headset.gain.depcal=true
 vendor.voice.path.for.pcm.voip=true
 
 # Bluetooth
-persist.bluetooth.a2dp_offload.disabled=false
 persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptive
-persist.vendor.qcom.bluetooth.enable.splita2dp=true
+persist.vendor.qcom.bluetooth.enable.splita2dp=false
 persist.vendor.qcom.bluetooth.soc=cherokee
-ro.bluetooth.a2dp_offload.supported=true
+ro.bluetooth.a2dp_offload.supported=false
 vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
